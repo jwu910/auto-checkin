@@ -1,0 +1,33 @@
+// Required
+@import "ember-bootstrap/bootstrap";
+@import "ember-bootstrap/functions";
+@import "ember-bootstrap/variables";
+@import "ember-bootstrap/mixins";
+
+// Optional - Bootstrapping/Resetting
+@import "ember-bootstrap/root";
+@import "ember-bootstrap/print";
+@import "ember-bootstrap/reboot";
+
+// Optional - Everything else
+@import "ember-bootstrap/type";
+@import "ember-bootstrap/buttons";
+
+html {
+  background-color: #F8F9FA;
+}
+
+a,
+a:active,
+a:hover,
+a:visited {
+  text-decoration: none;
+}
+
+form {
+  margin-top: 3em;
+
+  input {
+    width: 100%;
+  }
+}
