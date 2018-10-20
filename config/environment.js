@@ -2,7 +2,7 @@
 
 module.exports = function(environment) {
   let ENV = {
-    modulePrefix: 'auto-c',
+    modulePrefix: 'lazy-checkin',
     environment,
     rootURL: '/',
     locationType: 'auto',
