@@ -2,10 +2,10 @@
   "name": "lazy-checkin",
   "version": "0.0.0",
   "private": true,
-  "description": "Small description for lazy-checkin goes here",
+  "description": "UI Application to enter passenger information for automatic checkin for an airline.",
   "repository": "",
   "license": "MIT",
-  "author": "",
+  "author": "Joshua Wu",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -38,6 +38,7 @@
     "ember-cli-uglify": "^2.1.0",
     "ember-data": "~3.5.0",
     "ember-export-application-global": "^2.0.0",
+    "ember-font-awesome": "^4.0.0-rc.4",
     "ember-load-initializers": "^1.1.0",
     "ember-maybe-import-regenerator": "^0.1.6",
     "ember-qunit": "^3.4.1",

@@ -13,7 +13,7 @@
 @import "ember-bootstrap/type";
 @import "ember-bootstrap/buttons";
 
-html {
+body, html {
   background-color: #F8F9FA;
 }
 
@@ -30,4 +30,26 @@ form {
   input {
     width: 100%;
   }
+}
+
+.application{
+  margin-bottom: 64px;
+}
+
+.navbar-nav {
+  flex-direction: row;
+
+  .nav-link {
+    text-align: center;
+    margin: 0 12px;
+
+    &:hover a {
+      color: #007BFF;
+    }
+  }
+}
+
+.spacing {
+  padding-top: 18px;
+  margin-top: 24px;
 }
